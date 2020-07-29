@@ -1,0 +1,51 @@
+Activity,Day,Channel,TargetProducts,Cost
+1,45,text message,1;11,0.035
+2,104,text message,1;11,0.035
+3,70,call center,2,9.1
+4,28,call center,2,9.1
+5,69,email,3,0.0
+6,1,email,4,0.0
+7,68,direct mail,5,1.4
+8,19,direct mail,6;12,1.4
+9,47,direct mail,6;12,1.4
+10,55,direct mail,6;12,1.4
+11,1,direct mail,6;12,1.4
+12,66,email,7,0.0
+13,22,email,7,0.0
+14,111,text message,8,0.035
+15,41,text message,8,0.035
+16,74,call center,9,9.1
+17,24,call center,9,9.1
+18,50,text message,10,0.035
+19,78,text message,10,0.035
+20,107,direct mail,5,1.4
+21,113,direct mail,5,1.4
+22,39,direct mail,1;12,1.4
+23,80,direct mail,1;12,1.4
+24,13,direct mail,1;12,1.4
+25,62,direct mail,1;12,1.4
+26,66,direct mail,2,1.4
+27,23,direct mail,2,1.4
+28,109,direct mail,2,1.4
+29,96,email,10,0.0
+30,85,email,10,0.0
+31,5,email,9;11,0.0
+32,24,email,9;11,0.0
+33,23,direct mail,3,1.4
+34,102,direct mail,3,1.4
+35,20,text message,4,0.035
+36,7,text message,4,0.035
+37,65,direct mail,2;11,1.4
+38,101,direct mail,3;12,1.4
+39,21,direct mail,3;12,1.4
+40,98,direct mail,3;12,1.4
+41,25,call center,8,9.1
+42,35,call center,3,9.1
+43,55,call center,3,9.1
+44,81,call center,3,9.1
+45,36,direct mail,7,1.4
+46,6,call center,1,9.1
+47,30,call center,10;11,9.1
+48,32,direct mail,3,1.4
+49,8,email,7,0.0
+50,21,email,7,0.0
