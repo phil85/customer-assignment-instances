@@ -13,8 +13,9 @@ The repository contains all generated problem instances described in the paper <
 ## Table of contents
 
 - [Download instances](#download-instances)
-- [Data description](#data-description)
 - [Overview instances](#overview-instances)
+- [Data description](#data-description)
+- [Attribution](#attribution)
 
 <br>
 <br>
@@ -44,6 +45,45 @@ git lfs install
 git clone https://github.com/phil85/customer-assignment-instances.git
 ```
 --- 
+<br>
+<br>
+
+## Overview instances
+
+<p align="justify">
+The table below provides an overview of all 24 generated instances. These instances include small (GS1-GS8), medium (GM1-GM8), and large (GL1-GL8) instances. The small instances comprise up to 20,000 customers and 75 activities, the medium instances comprise up to 200,000 customers and 125 activities, and the large instances comprise up to 1,000,000 customers and 175 activities. We generated for each combination of customers and activities four instances by varying the eligibility fraction (small/large) and the number of eligibility patterns (few/many). The eligibility fraction specifies the percentage of activities a customer is eligible for on average. The eligibility fraction in this table might slightly differ from the actual eligibility fraction of the instance as a consequence of the randomized generation process.
+</p>
+
+<br>
+
+| ID  | Customers  | Activities     | Eligibility fraction [%]| Eligibility patterns | 
+| :-- |        --: |            --: | :--                            | :-- 		              |
+| GS1 | 10,000     | 50		        | small  (5)    		         | few (50)		          |
+| GS2 | 10,000     | 50		        | large (15)   		             | few (50)		          |
+| GS3 | 10,000     | 50 	        | small  (5)  		             | many (100)	          |
+| GS4 | 10,000     | 50 	        | large (15)	                 | many (100)	          |
+| GS5 | 20,000     | 75 	        | small  (5)   	                 | few (50)		          |
+| GS6 | 20,000     | 75 	        | large (15) 	                 | few (50)		          |
+| GS7 | 20,000     | 75 	        | small  (5)  	                 | many (100)	          |
+| GS8 | 20,000     | 75 	        | large (15)  		             | many (100)	          |
+| GM1 | 100,000    | 100 	        | small  (5) 		             | few (300)	          |
+| GM2 | 100,000    | 100 	        | large (15) 	                 | few (300)	          |
+| GM3 | 100,000    | 100 	        | small  (5) 	                 | many (800)	          |
+| GM4 | 100,000    | 100 	        | large (15) 	                 | many (800)	          |
+| GM5 | 200,000    | 125 	        | small  (5) 	                 | few (300)	          |
+| GM6 | 200,000    | 125 	        | large (15) 	                 | few (300)	          |
+| GM7 | 200,000    | 125            | small  (5) 	                 | many (800)	          |
+| GM8 | 200,000    | 125	        | large (15) 	                 | many (800)	          |
+| GL1 | 500,000    | 150 	        | small  (5) 	                 | few (300)	          |
+| GL2 | 500,000    | 150 	        | large (15)        	         | few (300)	          |
+| GL3 | 500,000    | 150 	        | small  (5)                     | many (1,000)	          |
+| GL4 | 500,000    | 150 	        | large (15) 	                 | many (1,000)	          |
+| GL5 | 1,000,000  | 175 	        | small  (5) 	                 | few (300)	          |
+| GL6 | 1,000,000  | 175 	        | large (15) 	                 | few (300)	          |
+| GL7 | 1,000,000  | 175 	        | small  (5) 	                 | many (1,000)	          |
+| GL8 | 1,000,000  | 175 	        | large (15)	                 | many (1,000)	          |
+---
+
 <br>
 <br>
 
@@ -108,42 +148,8 @@ Table 4 provides information on the conflict rules. It is structured as follows:
 The table indicates the combinations of channels and target products that lead to a conflict and the time lag associated with a conflict rule.
 </p>
 
----
-
-<br>
-<br>
-
-## Overview instances
+## Attribution
 
 <p align="justify">
-The table below provides an overview of all 24 generated instances. These instances include small (GS1-GS8), medium (GM1-GM8), and large (GL1-GL8) instances. The small instances comprise up to 20,000 customers and 75 activities, the medium instances comprise up to 200,000 customers and 125 activities, and the large instances comprise up to 1,000,000 customers and 175 activities. We generated for each combination of customers and activities four instances by varying the eligibility fraction (small/large) and the number of eligibility patterns (few/many). The eligibility fraction specifies the percentage of activities a customer is eligible for on average. The eligibility fraction in this table might slightly differ from the actual eligibility fraction of the instance as a consequence of the randomized generation process.
+Please cite the following paper to use these instances: Bigler, T., Kammermann, M., Baumann, P., 2020. A matheuristic for a large-scale customer assignment problem in direct marketing. Manuscript submitted for publication.
 </p>
-
-<br>
-
-| ID  | Customers  | Activities     | Eligibility fraction [%]| Eligibility patterns | 
-| :-- |        --: |            --: | :--                            | :-- 		              |
-| GS1 | 10,000     | 50		        | small  (5)    		         | few (50)		          |
-| GS2 | 10,000     | 50		        | large (15)   		             | few (50)		          |
-| GS3 | 10,000     | 50 	        | small  (5)  		             | many (100)	          |
-| GS4 | 10,000     | 50 	        | large (15)	                 | many (100)	          |
-| GS5 | 20,000     | 75 	        | small  (5)   	                 | few (50)		          |
-| GS6 | 20,000     | 75 	        | large (15) 	                 | few (50)		          |
-| GS7 | 20,000     | 75 	        | small  (5)  	                 | many (100)	          |
-| GS8 | 20,000     | 75 	        | large (15)  		             | many (100)	          |
-| GM1 | 100,000    | 100 	        | small  (5) 		             | few (300)	          |
-| GM2 | 100,000    | 100 	        | large (15) 	                 | few (300)	          |
-| GM3 | 100,000    | 100 	        | small  (5) 	                 | many (800)	          |
-| GM4 | 100,000    | 100 	        | large (15) 	                 | many (800)	          |
-| GM5 | 200,000    | 125 	        | small  (5) 	                 | few (300)	          |
-| GM6 | 200,000    | 125 	        | large (15) 	                 | few (300)	          |
-| GM7 | 200,000    | 125            | small  (5) 	                 | many (800)	          |
-| GM8 | 200,000    | 125	        | large (15) 	                 | many (800)	          |
-| GL1 | 500,000    | 150 	        | small  (5) 	                 | few (300)	          |
-| GL2 | 500,000    | 150 	        | large (15)        	         | few (300)	          |
-| GL3 | 500,000    | 150 	        | small  (5)                     | many (1,000)	          |
-| GL4 | 500,000    | 150 	        | large (15) 	                 | many (1,000)	          |
-| GL5 | 1,000,000  | 175 	        | small  (5) 	                 | few (300)	          |
-| GL6 | 1,000,000  | 175 	        | large (15) 	                 | few (300)	          |
-| GL7 | 1,000,000  | 175 	        | small  (5) 	                 | many (1,000)	          |
-| GL8 | 1,000,000  | 175 	        | large (15)	                 | many (1,000)	          |
