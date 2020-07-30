@@ -30,7 +30,7 @@ The  generated problem instances are hosted on <a href="https://github.com/" tar
 ### Option 1: Download code as ZIP-file
 **Step 1:** Go to the website <a href="https://github.com/phil85/customer-assignment-instances" target="_blank"> https://github.com/phil85/customer-assignment-instances. </a>
 
-**Step 2:** Select the tab 'Code' and click on 'Download ZIP'. The instances are downloaded as a zip file. Unzip the file and select your desired target location.
+**Step 2:** Select the tab 'Code' and click on 'Download ZIP'. The instances are downloaded as a zip file. Unzip the file and select your desired target location. Please note that the large instances (GL1-GL8) are stored on github as zip files. These instances must be downloaded individually. To download a large instance, click on the zip folder of the respective instance, click on download, and unzip the downloaded folder.
 
 ---
 
