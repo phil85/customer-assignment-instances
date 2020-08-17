@@ -7,7 +7,7 @@
 # Customer assignment instances
 
 <p align="justify">
-The repository contains all generated problem instances described in the paper <i>A matheuristic for a large-scale customer assignment problem in direct marketing</i>. This documentation describes how the instances are structured and explains how to download the instances on a standard PC or Mac.
+The repository contains all generated problem instances described in the paper <i>A matheuristic for a customer assignment problem in direct marketing</i>. This documentation describes how the instances are structured and explains how to download the instances on a standard PC or Mac.
 </p>
 
 ## Table of contents
@@ -151,5 +151,5 @@ The table indicates the combinations of channels and target products that lead t
 ## Attribution
 
 <p align="justify">
-Please cite the following paper to use these instances: Bigler, T., Kammermann, M., Baumann, P., 2020. A matheuristic for a large-scale customer assignment problem in direct marketing. Manuscript submitted for publication.
+Please cite the following paper to use these instances: Bigler, T., Kammermann, M., Baumann, P., 2020. A matheuristic for a customer assignment problem in direct marketing. Manuscript submitted for publication.
 </p>
