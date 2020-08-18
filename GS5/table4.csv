@@ -1,0 +1,9 @@
+Index,Channel1,TargetProduct1,Channel2,TargetProduct2,Lag
+1,call center,ALL,call center,ALL,90
+2,direct mail,ALL,direct mail,ALL,80
+3,text message,ALL,text message,ALL,90
+4,email,ALL,email,ALL,90
+5,call center,ALL,direct mail,ALL,70
+6,direct mail,ALL,call center,ALL,80
+7,email,ALL,text message,ALL,70
+8,text message,ALL,email,ALL,70

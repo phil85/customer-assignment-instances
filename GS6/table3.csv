@@ -1,0 +1,10 @@
+Index,Type,StartDay,EndDay,Channels,TargetProducts,Bound
+1,Minimum assignment,32,59,text message,ALL,1776.0
+2,Minimum assignment,1,31,email,ALL,7477.0
+3,Maximum assignment,60,90,call center,ALL,213.925
+4,Maximum assignment,91,120,direct mail,ALL,2419.84
+5,Budget,1,120,call center,ALL,36200.45
+6,Budget,1,120,direct mail; email; text message,ALL,24702.254999999986
+7,Minimum sales,1,120,ALL,11,311.345101240129
+8,Maximum sales,1,120,ALL,12,548.342807027631
+9,Maximum contact,1,120,ALL,ALL,3.0
