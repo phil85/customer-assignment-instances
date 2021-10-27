@@ -1,0 +1,101 @@
+Activity,Day,Channel,TargetProducts,Cost
+1,88,text message,1,0.065
+2,26,text message,1,0.065
+3,72,text message,1,0.065
+4,116,email,2,0.0
+5,93,email,2,0.0
+6,75,email,2,0.0
+7,63,email,3;12,0.0
+8,47,text message,4;11,0.065
+9,33,direct mail,5,2.6
+10,89,direct mail,5,2.6
+11,24,direct mail,6,2.6
+12,56,direct mail,6,2.6
+13,66,direct mail,7,2.6
+14,114,direct mail,7,2.6
+15,78,email,8,0.0
+16,4,email,8,0.0
+17,1,email,8,0.0
+18,78,call center,9;12,16.900000000000002
+19,7,call center,9;12,16.900000000000002
+20,53,call center,9;12,16.900000000000002
+21,86,call center,9;12,16.900000000000002
+22,71,call center,10,16.900000000000002
+23,3,call center,10,16.900000000000002
+24,77,call center,10,16.900000000000002
+25,92,direct mail,3;12,2.6
+26,22,email,9,0.0
+27,76,email,9,0.0
+28,8,email,9,0.0
+29,78,call center,3,16.900000000000002
+30,73,call center,3,16.900000000000002
+31,76,call center,3,16.900000000000002
+32,77,text message,2;11,0.065
+33,44,text message,2;11,0.065
+34,21,text message,2;11,0.065
+35,31,call center,5,16.900000000000002
+36,37,call center,5,16.900000000000002
+37,104,call center,1,16.900000000000002
+38,8,call center,1,16.900000000000002
+39,46,direct mail,5,2.6
+40,69,direct mail,5,2.6
+41,58,email,2,0.0
+42,113,email,2,0.0
+43,83,direct mail,8;12,2.6
+44,97,direct mail,8;12,2.6
+45,14,text message,4,0.065
+46,11,email,2,0.0
+47,24,email,2,0.0
+48,82,email,2,0.0
+49,8,call center,7,16.900000000000002
+50,25,call center,7;11,16.900000000000002
+51,75,call center,7;11,16.900000000000002
+52,93,call center,7;11,16.900000000000002
+53,21,direct mail,10,2.6
+54,33,direct mail,10,2.6
+55,13,direct mail,10,2.6
+56,66,email,7,0.0
+57,95,email,7,0.0
+58,61,text message,10;12,0.065
+59,106,text message,10;12,0.065
+60,25,email,7,0.0
+61,83,email,1,0.0
+62,116,text message,1;11,0.065
+63,98,text message,1;11,0.065
+64,3,direct mail,3;11,2.6
+65,109,direct mail,3;11,2.6
+66,93,call center,10;11,16.900000000000002
+67,104,call center,10;11,16.900000000000002
+68,99,text message,7;11,0.065
+69,11,direct mail,1;12,2.6
+70,55,direct mail,1;12,2.6
+71,97,email,7;11,0.0
+72,106,email,8;11,0.0
+73,83,text message,1,0.065
+74,87,email,4,0.0
+75,71,direct mail,10;11,2.6
+76,67,direct mail,10;11,2.6
+77,72,direct mail,10;11,2.6
+78,104,call center,1;12,16.900000000000002
+79,49,email,4,0.0
+80,55,direct mail,5,2.6
+81,16,direct mail,8,2.6
+82,6,direct mail,8,2.6
+83,18,direct mail,8,2.6
+84,43,email,6;11,0.0
+85,21,email,6;11,0.0
+86,119,email,6;11,0.0
+87,49,text message,4;11,0.065
+88,23,text message,4;11,0.065
+89,102,call center,9,16.900000000000002
+90,14,call center,9;11,16.900000000000002
+91,114,call center,9;11,16.900000000000002
+92,115,text message,1,0.065
+93,98,text message,7,0.065
+94,54,text message,7,0.065
+95,85,email,8,0.0
+96,11,email,10,0.0
+97,97,email,10,0.0
+98,56,email,6;12,0.0
+99,62,email,6;12,0.0
+100,57,email,6;12,0.0
