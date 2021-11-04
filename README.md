@@ -51,7 +51,7 @@ git clone https://github.com/phil85/customer-assignment-instances.git
 ## Overview instances
 
 <p align="justify">
-The table below provides an overview of all 24 generated instances. These instances include small (GS1-GS8), medium (GM1-GM8), and large (GL1-GL8) instances. The small instances comprise up to 20,000 customers and 75 activities, the medium instances comprise up to 200,000 customers and 125 activities, and the large instances comprise up to 1,000,000 customers and 175 activities. We generated for each combination of customers and activities four instances by varying the eligibility fraction (small/large) and the number of eligibility patterns (few/many). The eligibility fraction specifies the percentage of activities a customer is eligible for on average. The eligibility fraction in this table might slightly differ from the actual eligibility fraction of the instance as a consequence of the randomized generation process.
+The table below provides an overview of all 27 generated instances. These instances include small (GS), medium (GM), and large (GL) instances. The small instances comprise up to 20,000 customers and 75 activities, the medium instances comprise up to 200,000 customers and 125 activities, and the large instances comprise up to 1,000,000 customers and 175 activities. We generated different instances by varying the eligibility fraction (small/large) and the number of eligibility patterns (few/many). The eligibility fraction specifies the percentage of activities a customer is eligible for on average. The eligibility fraction in this table might slightly differ from the actual eligibility fraction of the instance as a consequence of the randomized generation process. The instances GS1', GM1' and GL1' differ from the respective instances GS1, GM1 and GL1 only in terms of constraints. The instances GS1', GM1' and GL1' are infeasible if all soft constraints are considered as hard constraints.
 </p>
 
 <br>
@@ -59,6 +59,7 @@ The table below provides an overview of all 24 generated instances. These instan
 | ID  | Customers  | Activities     | Eligibility fraction [%]| Eligibility patterns | 
 | :-- |        --: |            --: | :--                            | :-- 		              |
 | GS1 | 10,000     | 50		        | small  (5)    		         | few (50)		          |
+| GS1' | 10,000     | 50		        | small  (5)    		         | few (50)		          |
 | GS2 | 10,000     | 50		        | large (15)   		             | few (50)		          |
 | GS3 | 10,000     | 50 	        | small  (5)  		             | many (100)	          |
 | GS4 | 10,000     | 50 	        | large (15)	                 | many (100)	          |
@@ -67,6 +68,7 @@ The table below provides an overview of all 24 generated instances. These instan
 | GS7 | 20,000     | 75 	        | small  (5)  	                 | many (100)	          |
 | GS8 | 20,000     | 75 	        | large (15)  		             | many (100)	          |
 | GM1 | 100,000    | 100 	        | small  (5) 		             | few (300)	          |
+| GM1' | 100,000    | 100 	        | small  (5) 		             | few (300)	          |
 | GM2 | 100,000    | 100 	        | large (15) 	                 | few (300)	          |
 | GM3 | 100,000    | 100 	        | small  (5) 	                 | many (800)	          |
 | GM4 | 100,000    | 100 	        | large (15) 	                 | many (800)	          |
@@ -75,6 +77,7 @@ The table below provides an overview of all 24 generated instances. These instan
 | GM7 | 200,000    | 125            | small  (5) 	                 | many (800)	          |
 | GM8 | 200,000    | 125	        | large (15) 	                 | many (800)	          |
 | GL1 | 500,000    | 150 	        | small  (5) 	                 | few (300)	          |
+| GL1' | 500,000    | 150 	        | small  (5) 	                 | few (300)	          |
 | GL2 | 500,000    | 150 	        | large (15)        	         | few (300)	          |
 | GL3 | 500,000    | 150 	        | small  (5)                     | many (1,000)	          |
 | GL4 | 500,000    | 150 	        | large (15) 	                 | many (1,000)	          |
@@ -131,7 +134,7 @@ Table 3 provides information on the business constraints and the contact rules. 
 | ... 	 |  ...  |  ...       | ...     |  ...      | ...   		   | ...    |
 
 <p align="justify">
-The table specifies for the business constraints and the contact rules the index, the type, the start day, the end day, the channels, the target products, and the bound associated with the respective constraint or rule. The activities that are associated with a business constraint or contact rule are defined according to the information in this table.
+The table specifies for the business constraints and the contact rules the type, the start day, the end day, the channels, the target products, and the bound associated with the respective constraint or rule. The activities that are associated with a business constraint or contact rule are defined according to the information in this table.
 </p>
 
 ---
