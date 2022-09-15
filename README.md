@@ -154,5 +154,5 @@ The table indicates the combinations of channels and target products that lead t
 ## Attribution
 
 <p align="justify">
-Please cite the following paper to use these instances: Bigler, T., Kammermann, M., Baumann, P., 2020. A matheuristic for a customer assignment problem in direct marketing. Manuscript submitted for publication.
+Please cite the following paper to use these instances: Bigler, T., Kammermann, M., Baumann, P. (2023). A matheuristic for a customer assignment problem in direct marketing. European Journal of Operational Research, 304(2), 689-708.
 </p>
